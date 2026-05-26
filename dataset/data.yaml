@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['signature']
+
+roboflow:
+  workspace: -cqiyb
+  project: signature-detection-hlx8j-5oj0b
+  version: 1
+  license: Private
+  url: https://universe.roboflow.com/-cqiyb/signature-detection-hlx8j-5oj0b/dataset/1
